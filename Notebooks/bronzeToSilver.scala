@@ -31,4 +31,4 @@ neighbourhoodDF.show()
 
 // COMMAND ----------
 
-neighbourhoodDF.write.mode("overwrite").parquet("abfss://dados@datalaketrab0001.dfs.core.windows.net/dados/golden/neighCount.parquet")
+neighbourhoodDF.write.mode("overwrite").parquet("abfss://dados@datalaketrab0001.dfs.core.windows.net/dados/silver/neighCount.parquet")
